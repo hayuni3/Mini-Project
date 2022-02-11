@@ -1,0 +1,106 @@
+@media only screen and (max-width:425px) {
+
+    .home-main-title {
+        font-size: 47px;
+        line-height: 54.4px;
+        text-align: center;
+    }
+
+    .arrow-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .welcome-title {
+        text-align: center;
+    }
+
+    .section-2-title {
+        font-size: 32px;
+        line-height: 50px;
+        padding-top: 20px;
+    }
+
+    .divider {
+        width: 100px;
+    }
+
+    .form-label {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .section-3-title {
+        font-size: 32px;
+        line-height: 50px;
+
+    }
+
+    .table-header-title {
+        text-align: center;
+        font-family: Brandon Grotesque;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 34.01px;
+        text-transform: uppercase;
+        color: #65C5B4;
+        color: rgb(101, 197, 180);
+    }
+
+    .td-text {
+        text-align: center;
+        font-family: Brandon Grotesque;
+        font-size: 18px;
+        color: #939598;
+        color: rgb(147, 149, 152);
+    }
+
+    .td-text-amount {
+        color: #004053;
+    }
+
+    .section-4-title h4 {
+        font-size: 24px;
+    }
+
+    .section-4-title {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .section-4-content span {
+        font-size: 24px;
+    }
+
+    .footer-text p {
+
+        font-size: 22px;
+        line-height: 30.4px;
+        padding: 0px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .card {
+        background: var(--Light-background);
+        max-width: 185px;
+        height: 410px;
+    }
+
+    .card-title {
+        font-family: var(--Single-font);
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 103.02px;
+        text-transform: uppercase;
+        color: var(--Light-cyan);
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .section-2-title span {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

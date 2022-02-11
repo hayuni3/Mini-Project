@@ -1,0 +1,311 @@
+/*
+Theme Name: Children First
+Description: Checking if you are eligiblle for housing
+Version: 1.0
+Author: Hayat
+*/
+
+@font-face {
+    src: url(/Fonts/BrandonGrotesque-Bold.otf) format("opentype");
+    font-family: Brandon Grotesque;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+:root {
+    --Single-font: "Brandon Grotesque";
+    --Dark-cyan: #004053;
+    --Light-cyan: #65C5B4;
+    --Accent-color: rgba(252, 214, 11, 1);
+    --Light-background: rgba(255, 255, 255, 1);
+}
+
+
+
+.home-main-title {
+    font-family: var(--Single-font);
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 74.4px;
+    text-transform: uppercase;
+    color: var(--Dark-cyan);
+}
+
+/* hero-section*/
+.image {
+    background-repeat: no-repeat;
+    width: 764px;
+    height: 555px;
+}
+
+.home-content {
+    font-family: var(--Single-font);
+    font-size: 23px;
+    color: var(--Dark-cyan);
+    padding-top: 20px;
+}
+
+.arrow-down {
+    width: 89px;
+    height: 33px;
+}
+
+.welcome-title {
+    font-family: var(--Single-font);
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52.4px;
+    text-transform: uppercase;
+    color: var(--Light-cyan);
+    padding-top: 20px;
+
+}
+
+/*--Section-1*/
+
+.section-1 {
+    padding: 10vmin 0;
+}
+
+.section-title {
+    font-family: var(--Single-font);
+    font-size: 32px;
+    color: var(--Dark-cyan);
+}
+
+
+
+.heading-underline {
+    border-style: Solid;
+    border-color: var(--Accent-color);
+    border-width: 3px;
+    width: 139px;
+    height: 3px;
+    text-align: center;
+}
+
+/*--section 2 program eligible area--*/
+.section-2-title {
+    font-family: var(--Single-font);
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52.4px;
+    text-transform: uppercase;
+    color: var(--Light-cyan);
+}
+
+.static-map {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 120vw;
+    position: relative;
+    right: 50%;
+    width: 120vw;
+}
+
+.circle-icon {
+    background: var(--Accent-color);
+    width: 15px;
+    height: 15px;
+}
+
+
+
+.card-text {
+    font-family: var(--Single-font);
+    font-size: 22px;
+    color: var(--Dark-cyan);
+    padding-top: 10px
+}
+
+.card-title {
+    font-family: var(--Single-font);
+    font-weight: bold;
+    font-size: 114px;
+    line-height: 143.02px;
+    text-transform: uppercase;
+    color: var(--Light-cyan);
+}
+
+.card {
+    background: var(--Light-background);
+    max-width: 245px;
+    height: 355px;
+}
+
+
+.form-control {
+    border-style: Solid;
+    border-color: var(--Accent-color);
+    border-width: 4px;
+    width: 100%;
+    /*width: 1135px;*/
+    height: 79px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+}
+
+.form-label {
+    text-align: left;
+    font-family: var(--Single-font);
+    font-size: 32px;
+    color: var(--Dark-cyan);
+}
+
+/*Section -3 Eligible Property Results*/
+
+.section-3-title {
+    font-family: var(--Single-font);
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52.4px;
+    text-transform: uppercase;
+    color: var(--Light-cyan);
+    padding-bottom: 10px;
+}
+
+.result-text {
+    font-family: var(--Single-font);
+    font-size: 32px;
+    color: var(--Dark-cyan);
+
+}
+
+.table {
+    border: none;
+    padding-top: 20px;
+}
+
+.table-header-title {
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 29px;
+    line-height: 53.1px;
+    text-transform: uppercase;
+    color: #65C5B4;
+    color: rgb(101, 197, 180);
+}
+
+.td-text {
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 32px;
+    color: #939598;
+    color: rgb(147, 149, 152);
+}
+
+.td-text-amount {
+    color: #004053;
+}
+
+/*Accordion-section-4*/
+
+.section-4-title h4 {
+    font-family: var(--Light-cyan);
+    font-size: 32px;
+    color: var(--Dark-cyan);
+    padding-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: white;
+}
+
+.accordion-button:after {
+    background-image: url(/assets/Arrow-down.svg) !important;
+
+}
+
+
+.accordion-item .accordion-button {
+    font-family: var(--Single-font);
+    font-size: 29px;
+    line-height: 53.1px;
+    text-transform: uppercase;
+    color: var(--Light-cyan);
+}
+
+.accordion-body {
+    font-family: var(--Single-font);
+    font-size: 22px;
+    color: var(--Dark-cyan);
+
+}
+
+#panelsStayOpen-headingOne {
+    font-family: Brandon Grotesque;
+    font-size: 29px;
+    line-height: 53.1px;
+    text-transform: uppercase;
+    color: #65C5B4;
+    color: rgb(101, 197, 180);
+}
+
+.arrow_down-2 {
+    padding-top: 40px;
+}
+
+/*section - 4 */
+
+.top-title {
+
+    font-family: var(--Single-font);
+    font-size: 32px;
+    color: var(--Dark-cyan);
+    padding-bottom: 20px;
+}
+
+.printer-image {
+    width: 69px;
+    height: 69px;
+}
+
+.section-4-title {
+    font-family: var(--Single-font);
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 36.4px;
+    text-transform: uppercase;
+    color: var(--Light-cyan);
+}
+
+.section-4-content span {
+    font-family: var(--Single-font);
+    font-size: 32px;
+    color: var(--Dark-cyan);
+
+}
+
+.hr-footer-style {
+    border-style: Solid;
+    border-color: #cfcfcf;
+    border-width: 2px;
+    width: auto;
+    height: 2px;
+}
+
+
+
+.footer-text p {
+    font-family: var(--Single-font);
+    font-size: 22px;
+    line-height: 30.4px;
+    color: var(--Dark-cyan);
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
